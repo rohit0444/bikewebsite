@@ -1,0 +1,54 @@
+body{
+margin: 0%;
+padding: 0%;
+background-color: black;
+}
+
+h1{
+font-size: 110px;
+}
+
+.navbar{
+background-color: transparent;
+position: relative;
+z-index: 4;
+}
+
+.nav-link{
+font-size:20px;
+}
+
+main{
+position: absolute;
+top: 0%;
+z-index:0%
+}
+
+.site-wrapper{
+height: 1000px;
+}
+
+.section-1{
+height: 500px;
+}
+
+
+
+.parallax{
+background-image: url('rrr.jpg');
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-color: black;
+height: 500px;
+}
+
+@media only screen and (max-device-width:320px){
+.site-wrapper{
+height: 200px;
+}
+
+.col-md-4{
+margin: 5% 0%;
+}
+}
